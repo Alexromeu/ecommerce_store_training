@@ -63,7 +63,7 @@ export default function Product() {
             ${product.price.toFixed(2)}
           </Typography>
 
-          <Typography variant="body1" paragraph>
+          <Typography variant="body1" >
             {product.description}
           </Typography>
 

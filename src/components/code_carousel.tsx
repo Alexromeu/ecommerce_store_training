@@ -23,7 +23,6 @@ export function EmblaCarousel() {
   return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
-        <div className="embla__slide"  onClick={() => navigate("/product/:id")}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRplF9D_R7tnjW7jZoP5c9fibhwVjodydfqrg&s" alt="a" /></div>
           {mockProducts.map(product => (
           <div key={product.id} className="embla__slide"  onClick={() => navigate(`/product/${product.id}`)}><img src={`${product.image}`}/></div>
         ))}
