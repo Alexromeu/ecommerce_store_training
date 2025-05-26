@@ -7,8 +7,9 @@ import Header from './components/Header'
 import Product from './pages/Product';
 import Cart from './pages/Cart';
 import Home from './pages/Home'
+import './components/carousel_styles/base.css'
+ import './components/carousel_styles/embla.css'
 
- 
 function App() {
   return (
   <CartProvider>
