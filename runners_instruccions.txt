@@ -1,0 +1,5 @@
+# Stop the runner
+./run.sh stop
+
+# Later, restart it:
+./run.sh start
