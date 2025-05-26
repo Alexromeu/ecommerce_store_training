@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom'
 export default function ProductCard( { product }: { product: ProductInterface}) {
     const { addToCart } = useCart();
     const navigate = useNavigate();
-
     const handleNavegateClick = () => navigate(`/product/${product.id}`);
     
     return (
@@ -28,6 +27,7 @@ export default function ProductCard( { product }: { product: ProductInterface}) 
                  variant="contained"
                  onClick={() => addToCart(product)}
                  sx={{ mt: 2}}
+                 
                 >Add to Cart</Button>
             </CardContent>
         </Card>

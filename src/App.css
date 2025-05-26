@@ -1,13 +1,21 @@
+:root {
+  --light: #BBFBFF;
+  --middle: #4E71FF;
+  --dark: #5409DA;
+  --middle-light: #8DD8FF;
+  --background-site: #F2F2F2;
+}
+
 .list_header {
-    position:fixed;
-    top:0;
-    display: flex;
-    width:100%;
-    justify-content: flex-end;
-    background-color: #0E2148;
-    margin-top: 0;
-    padding:0;
-    
+  position:fixed;
+  top:0;
+  display: flex;
+  width:100%;
+  justify-content: flex-end;
+  background-color: var(--dark);
+  margin-top: 0;
+  padding:0;
+  z-index: 100; 
 }
 
 
@@ -16,10 +24,6 @@
   margin: 30px;
   color: white;
   cursor:pointer;
-}
-
-body {
-  margin-top: 100px;
 }
 
 a {
