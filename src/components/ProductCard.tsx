@@ -27,7 +27,6 @@ export default function ProductCard( { product }: { product: ProductInterface}) 
                  variant="contained"
                  onClick={() => addToCart(product)}
                  sx={{ mt: 2}}
-                 
                 >Add to Cart</Button>
             </CardContent>
         </Card>

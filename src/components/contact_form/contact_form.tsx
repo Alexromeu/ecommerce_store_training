@@ -1,11 +1,9 @@
 import { useForm, SubmitHandler } from "react-hook-form"
 
-
 type Inputs = {
     email: string,
     name:string,
     message: string,
-    
 }
 
 export default function ContactForm() {
